@@ -22,7 +22,7 @@ function App() {
   const [transactionHash, setTransactionHash] = useState<string | null>(null);
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
 
-  const controllerAddress = "0x54d02DcB38B76A67dC9368D8457D1F384B865c70";
+  const controllerAddress = "";
 
   const getBalance = async (address: string) => {
     try {
